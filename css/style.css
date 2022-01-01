@@ -3,8 +3,16 @@
     padding: 0;
 }
 
+.timeline-header {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
 body {
     text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #main {
@@ -25,10 +33,29 @@ body {
 #image {
     max-width: 100%;
     margin-top: 40px;
+    border-radius: 20px;
 }
 
 #img-caption {
     padding: 15px;
+}
+
+#timeline {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.timeline  {
+    text-align: left;
+    padding: 10px;
+
+}
+#putin {
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 15px;
+    align-items: center;
+    text-align: center;
 }
 
 @media screen and (max-width: 950px) {
@@ -39,6 +66,11 @@ body {
         padding: 25px 10px 25px 10px;
         margin: 25px 10px 25px 10px;
     }
+
+    #timeline {
+       width: 90%;
+       margin: 0 auto;
+}
 }
 
 @media screen and (max-width: 650px) {
@@ -49,6 +81,11 @@ body {
         padding: 25px 10px 25px 10px;
         margin: 25px 10px 25px 10px;
     }
+
+#timeline {
+    width: 90%;
+    margin: 0 auto;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -59,4 +96,9 @@ body {
         padding: 25px 10px 25px 10px;
         margin: 25px 10px 25px 10px;
     }
+
+#timeline {
+    width: 90%;
+    margin: 0 auto;
+}
 }
